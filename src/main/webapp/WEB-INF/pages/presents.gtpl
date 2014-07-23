@@ -3,14 +3,17 @@
     	<title>Lista prezentów</title>
     </head>
     <body>
-        <div class="jumbotron center">
+        <div class="jumbotron center" bgcolor="#FFDAB9">
         	<div class="panel panel-default">
         		<div class="panel-body">
-	        		Poni¿sza lista prezentów jest jedynie sugesti¹. Zachêcamy do sk³adania siê na prezenty. Inne pomys³y s¹ równie¿ mile widziane. 
+        			<p>
+	        		<small><em>Poni¿sza lista prezentów jest jedynie sugesti¹. Zachêcamy do sk³adania siê na prezenty. Inne pomys³y s¹ równie¿ mile widziane. 
 	        		Prosimy o klikniêcie przycisku "Rezerwuj" przy wybranym prezencie. Wszelkie w¹tpliwoœci i pytania prosimy kierowaæ na adres: "adres@...".
-	        		Prosimy równie¿ o kontakt w razie rezygnacji z wybranego prezentu. Dziêkujemy!
+	        		Prosimy równie¿ o kontakt w razie rezygnacji z wybranego prezentu. <br />Dziêkujemy!</em></small>
+	        		</p>
 	        	</div>
         	</div>
+        	<br />
         	
         	<% if(request.getAttribute("reservedPresent") != null) { %>
         		<% if (request.success) { %>
