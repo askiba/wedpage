@@ -8,7 +8,7 @@ def reserve_present(id) {
 	if (present == null) {
 		throw new NoSuchElementException("A present with this id does not exist in the database.")
 	}
-	request.reservationComplete = true
+	request.reservedPresent = present.name
 	def success = present.reserve()
 	log.info(success.toString())
 	if(!success) {

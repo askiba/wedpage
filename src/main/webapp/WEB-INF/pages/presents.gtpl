@@ -12,9 +12,9 @@
 	        	</div>
         	</div>
         	
-        	<% if(request.getAttribute("reservationComplete") != null) { %>
+        	<% if(request.getAttribute("reservedPresent") != null) { %>
         		<% if (request.success) { %>
-        			<div class="alert alert-success" role="alert">Dokonano rezerwacji przedmiotu!</div>
+        			<div class="alert alert-success" role="alert">Dokonano rezerwacji przedmiotu:<br/><strong>${request.reservedPresent}</strong></div>
         		<% } else { %>
         			<div class="alert alert-danger" role="alert">Przepraszamy, przedmiot zosta³ ju¿ wczeœniej zarezerwowany.</div>
         		<% }
