@@ -18,15 +18,20 @@ class Present {
 	
 	def boolean reserve() {
 		def datastore = DatastoreServiceFactory.datastoreService
+		
+		def retval = false
+		
 		datastore.withTransaction {
 			if (reserved) {
-				return false
+				retval = false
 			}
 			else {
 				reserved = true
 				save()
-				return true
+				retval = true
 			}
 		}
+		
+		return retval
 	}	
 }

@@ -12,9 +12,9 @@
 		   			</div>
 			   	</div>
 			  	<div class="form-group">
-	    			<label for="details" class="col-sm-2 control-label">Sczegó³y:</label>
+	    			<label for="details" class="col-sm-2 control-label">Szczegó³y:</label>
     				<div class="col-sm-10">
-		      			<input type="text" class="form-control" name="details" id="details">
+    					<textarea class="form-control" name="details" id="details" rows="3"></textarea>
 		   			</div>
 			   	</div>
 			   	<div class="form-group">
