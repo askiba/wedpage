@@ -11,7 +11,7 @@
 			</p>
 			<br />
 			<p>
-				Przyjêcie weselne odbêdzie siê <strong>w “Witkowej Chacie” przy ul. Handlowców 14 w Modlniczce</strong>
+				Na przyjêcie weselne zapraszamy do <strong>“Witkowej Chaty” przy ul. Handlowców 14 w Modlniczce.</strong>
 			</p>
 			<br />
 			<p>

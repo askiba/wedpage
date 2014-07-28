@@ -7,9 +7,10 @@
         	<div class="panel panel-default">
         		<div class="panel-body">
         			<p>
-	        		<small><em>Poni¿sza lista prezentów jest jedynie sugesti¹. Zachêcamy do sk³adania siê na prezenty. Inne pomys³y s¹ równie¿ mile widziane. 
-	        		Prosimy o klikniêcie przycisku "Rezerwuj" przy wybranym prezencie. Wszelkie w¹tpliwoœci i pytania prosimy kierowaæ na adres: "adres@...".
-	        		Prosimy równie¿ o kontakt w razie rezygnacji z wybranego prezentu. <br />Dziêkujemy!</em></small>
+	        		<small><em>Poni¿ej znajduje siê lista proponowanych przez nas prezentów. Prosimy traktowaæ j¹ jedynie jako sugestiê, ka¿dy inny prezent bêdzie równie mile widziany. Oczywiœcie mo¿na wspólnie sk³adaæ siê na prezenty. <br /> <br />
+	        		Prosimy o klikniêcie przycisku "Rezerwuj" przy wybranym prezencie. Wszelkie w¹tpliwoœci i pytania prosimy kierowaæ na adres:  <br /><a href="mailto:juliusz.dabrowa@gmail.com">juliusz.dabrowa@gmail.com</a> <br /> 
+	        		Prosimy równie¿ o kontakt w razie rezygnacji z wybranego prezentu. <br /><br />Dziêkujemy!</em></small> <br /><br />
+					<b>Uwaga!</b> Lista jest na razie pusta, ale z czasem bêd¹ pojawiaæ siê na niej kolejne propozycje.
 	        		</p>
 	        	</div>
         	</div>
