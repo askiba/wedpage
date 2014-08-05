@@ -1,11 +1,11 @@
-<html>
+Ôªø<html>
     <head>
-    	<title>Lista prezentÛw</title>
+    	<title>Lista prezent√≥w</title>
     </head>
     <body>
         <div class="jumbotron center">
  			<div>
- 				Zarezerwowa≥eú prezent!
+ 				Zarezerwowa≈Çe≈õ prezent!
  				
  			<div>
         </div>

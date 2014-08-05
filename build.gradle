@@ -62,3 +62,5 @@ dependencies {
     // compile 'org.gaelyk:gaelyk-console:2.0'
 
 }
+
+[ compileJava, compileGroovy ]*.options*.encoding = 'UTF-8'

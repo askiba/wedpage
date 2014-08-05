@@ -1,16 +1,16 @@
-<html>
+ï»¿<html>
     <head>
-    	<title>Lista prezentów</title>
+    	<title>Lista prezentÃ³w</title>
     </head>
     <body>
         <div class="jumbotron center" bgcolor="#FFDAB9">
         	<div class="panel panel-default">
         		<div class="panel-body">
         			<p>
-	        		<small><em>Poni¿ej  znajduje siê lista proponowanych przez nas prezentów. Prosimy traktowaæ j¹ jedynie jako sugestiê, ka¿dy inny prezent bêdzie równie mile widziany. Oczywiœcie mo¿na wspólnie sk³adaæ siê na prezenty. <br /> <br />
-	        		Prosimy o klikniêcie przycisku "Rezerwuj" przy wybranym prezencie. Wszelkie w¹tpliwoœci i pytania prosimy kierowaæ na adres:  <br /><a href="mailto:juliusz.dabrowa@gmail.com">juliusz.dabrowa@gmail.com</a> <br /> 
-	        		Prosimy równie¿ o kontakt w razie rezygnacji z wybranego prezentu. <br /><br />Dziêkujemy!</em></small> <br /><br />
-					<b>Uwaga!</b> Lista jest na razie pusta, ale z czasem bêd¹ pojawiaæ siê na niej kolejne propozycje.
+	        		<small><em>PoniÅ¼ej  znajduje siÄ™ lista proponowanych przez nas prezentÃ³w. Prosimy traktowaÄ‡ jÄ… jedynie jako sugestiÄ™, kaÅ¼dy inny prezent bÄ™dzie rÃ³wnie mile widziany. OczywiÅ›cie moÅ¼na wspÃ³lnie skÅ‚adaÄ‡ siÄ™ na prezenty. <br /> <br />
+	        		Prosimy o klikniÄ™cie przycisku "Rezerwuj" przy wybranym prezencie. Wszelkie wÄ…tpliwoÅ›ci i pytania prosimy kierowaÄ‡ na adres:  <br /><a href="mailto:juliusz.dabrowa@gmail.com">juliusz.dabrowa@gmail.com</a> <br /> 
+	        		Prosimy rÃ³wnieÅ¼ o kontakt w razie rezygnacji z wybranego prezentu. <br /><br />DziÄ™kujemy!</em></small> <br /><br />
+					<b>Uwaga!</b> Lista jest na razie pusta, ale z czasem bÄ™dÄ… pojawiaÄ‡ siÄ™ na niej kolejne propozycje.
 	        		</p>
 	        	</div>
         	</div>
@@ -20,7 +20,7 @@
         		<% if (request.success) { %>
         			<div class="alert alert-success" role="alert">Dokonano rezerwacji przedmiotu:<br/><strong>${request.reservedPresent}</strong></div>
         		<% } else { %>
-        			<div class="alert alert-danger" role="alert">Przepraszamy, przedmiot zosta³ ju¿ wczeœniej zarezerwowany.</div>
+        			<div class="alert alert-danger" role="alert">Przepraszamy, przedmiot zostaÅ‚ juÅ¼ wczeÅ›niej zarezerwowany.</div>
         		<% }
         	} %>
         	
@@ -29,7 +29,7 @@
 					<tr>
 						<th>Lp.</th>
 						<th>Nazwa</th>
-						<th>Szczegó³y</th>
+						<th>SzczegÃ³Å‚y</th>
 						<th>Cena</th>
 						<th align="center">Rezerwacja</th>
 					</tr>
@@ -48,12 +48,12 @@
 									<a href=${present.link}>${present.link}</a>
 								<% } %>
 							</td>
-							<td>${present.price} z³</td>
+							<td>${present.price} zÅ‚</td>
 							<td align="center">
 								<% if (!present.reserved) { %>
 									<button type="submit" class="btn btn-success">Rezerwuj</button> 	
 		  						<% } else { %>
-		  							<div> <span class="label label-default"> Zajête <span class="glyphicon glyphicon-ban-circle"> </span></span></div>
+		  							<div> <span class="label label-default"> ZajÄ™te <span class="glyphicon glyphicon-ban-circle"> </span></span></div>
 		  						<% } %>
 		  					</td>
 		  				</form>

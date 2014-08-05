@@ -1,4 +1,4 @@
-<!doctype html>
+Ôªø<!doctype html>
 <html>
 <head>
     <title><sitemesh:write property='title'/> | Ania i Julek</title>
@@ -21,8 +21,8 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">Strona g≥Ûwna</a>
-                <a class="navbar-brand" href="/presents">Lista prezentÛw</a>
+                <a class="navbar-brand" href="/">Strona g≈Ç√≥wna</a>
+                <a class="navbar-brand" href="/presents">Lista prezent√≥w</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

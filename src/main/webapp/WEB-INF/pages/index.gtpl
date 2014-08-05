@@ -1,21 +1,21 @@
-<html>
-    <head><title>Strona g³ówna</title></head>
+ï»¿<html>
+    <head><title>Strona gÅ‚Ã³wna</title></head>
     <body>
         <div class="jumbotron center">
             <br/>
     		<p>
-	           	Uroczyste przyjêcie Sakramentu Ma³¿eñstwa odbêdzie siê <br />
-				<strong> 4 paŸdziernika 2014 o godzinie 16:00 <br />
-				w koœciele Œw. Jana Chrzciciela przy ul. Dobrego Pasterza 117 
+	           	Uroczyste przyjÄ™cie Sakramentu MaÅ‚Å¼eÅ„stwa odbÄ™dzie siÄ™ <br />
+				<strong> 4 paÅºdziernika 2014 o godzinie 16:00 <br />
+				w koÅ›ciele Åšw. Jana Chrzciciela przy ul. Dobrego Pasterza 117 
 				w Krakowie</strong>.
 			</p>
 			<br />
 			<p>
-				Na przyjêcie weselne zapraszamy do <strong>“Witkowej Chaty” przy ul. Handlowców 14 w Modlniczce.</strong>
+				Na przyjÄ™cie weselne zapraszamy do <strong>â€œWitkowej Chatyâ€ przy ul. HandlowcÃ³w 14 w Modlniczce.</strong>
 			</p>
 			<br />
 			<p>
-				<small>Zamiast kwiatów prosimy o wsparcie finansowe dla Krakowskiego Schroniska dla Bezdomnych Zwierz¹t. Datki bêd¹ zbieraæ nasi przyjaciele podczas sk³adania ¿yczeñ.</small>
+				<small>Zamiast kwiatÃ³w prosimy o wsparcie finansowe dla Krakowskiego Schroniska dla Bezdomnych ZwierzÄ…t. Datki bÄ™dÄ… zbieraÄ‡ nasi przyjaciele podczas skÅ‚adania Å¼yczeÅ„.</small>
 			</p>
 
         </div>
