@@ -16,11 +16,14 @@
         	</div>
         	<br />
         	
+        	<% if(request.auth != null && !request.auth) { %>
+        		<div class="alert alert-danger" role="alert"><strong>Przepraszamy, podałeś nieprawidłowe dane, rezerwacja nie powiodła się.</strong></div>
+        	<% } %>
         	<% if(request.getAttribute("reservedPresent") != null) { %>
         		<% if (request.success) { %>
         			<div class="alert alert-success" role="alert">Dokonano rezerwacji przedmiotu:<br/><strong>${request.reservedPresent}</strong></div>
         		<% } else { %>
-        			<div class="alert alert-danger" role="alert">Przepraszamy, przedmiot został już wcześniej zarezerwowany.</div>
+        			<div class="alert alert-danger" role="alert"><strong>Przepraszamy, przedmiot został już wcześniej zarezerwowany.</strong></div>
         		<% }
         	} %>
         	
@@ -51,7 +54,23 @@
 							<td>${present.price} zł</td>
 							<td align="center">
 								<% if (!present.reserved) { %>
-									<button type="submit" class="btn btn-success">Rezerwuj</button> 	
+									<button type="button" class="btn btn-success" data-toggle="modal" data-target="#loginModal">Rezerwuj</button>
+									<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									  <div class="modal-dialog">
+									    <div class="modal-content">
+									      <div class="modal-body">
+									      	<label for="pass" class="control-label" >Proszę wpisać nazwisko panny młodej w celu weryfikacji</label>
+									        <input autofocus type="text" class="form-control" name="pass" id="pass">
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Anuluj</button>
+									        <button type="submit" class="btn btn-success">Rezerwuj</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+									
+									 	
 		  						<% } else { %>
 		  							<div> <span class="label label-default"> Zajęte <span class="glyphicon glyphicon-ban-circle"> </span></span></div>
 		  						<% } %>

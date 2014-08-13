@@ -15,6 +15,7 @@ class Present {
 	String link
 	boolean reserved
 	String price
+	Date reservationDate
 	
 	def boolean reserve() {
 		def datastore = DatastoreServiceFactory.datastoreService
@@ -27,6 +28,7 @@ class Present {
 			}
 			else {
 				reserved = true
+				reservationDate = new Date()
 				this.save()
 				retval = true
 			}

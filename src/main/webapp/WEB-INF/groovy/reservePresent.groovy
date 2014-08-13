@@ -2,11 +2,21 @@ import wedpage.model.Present
 import com.google.appengine.api.datastore.KeyFactory
 import com.google.appengine.api.datastore.Key
 
-def reserve_present(id) {
+def reserve_present(pass, id) {
+	if(id == null || pass == null) {
+		throw new IllegalArgumentException("Argument must not be null")
+	}
 	Key key = KeyFactory.createKey("Present", id)
+	
 	def present = datastore.get(key) as Present
 	if (present == null) {
 		throw new NoSuchElementException("A present with this id does not exist in the database.")
+	}
+	if(!(pass.trim().toLowerCase() == "skiba")) {
+		request.auth = false
+		return
+	} else {
+		request.auth = true
 	}
 	request.reservedPresent = present.name
 	def success = present.reserve()
@@ -20,7 +30,7 @@ def reserve_present(id) {
 	}
 }
 
-reserve_present(Long.parseLong(params.id))
+reserve_present(params.pass, Long.parseLong(params.id))
 
 //def dispatcher = request.getRequestDispatcher("/presents")
 //

@@ -8,7 +8,7 @@
 	   			<div class="form-group">
 	    			<label for="name" class="col-sm-2 control-label">Nazwa:</label>
     				<div class="col-sm-10">
-		      			<input type="text" class="form-control" name="name" id="name">
+		      			<input autofocus type="text" class="form-control" name="name" id="name">
 		   			</div>
 			   	</div>
 			  	<div class="form-group">
